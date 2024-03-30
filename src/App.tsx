@@ -1,28 +1,18 @@
-import { Button } from '@chakra-ui/react';
-import { useDispatch, useSelector } from 'react-redux';
-import { RootState } from './app/store';
-import { decrement, increment } from './app/features/counterSlice';
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import Navbar from './components/Navbar';
 
 function App() {
-  const count = useSelector((state: RootState) => state.counter.value);
-  const dispatch = useDispatch();
-
   return (
-    <div className="container vh-100 d-flex align-items-center justify-content-center gap-4">
-      <Button
-        colorScheme="blue"
-        onClick={() => dispatch(increment())}
-      >
-        +
-      </Button>
-      <span>{count}</span>
-      <Button
-        colorScheme="red"
-        onClick={() => dispatch(decrement())}
-      >
-        -
-      </Button>
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+        <Route
+          path="/"
+          element={<Home />}
+        />
+      </Routes>
+    </>
   );
 }
 
