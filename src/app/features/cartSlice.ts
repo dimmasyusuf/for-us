@@ -3,16 +3,25 @@ import axios from 'axios';
 
 const URL = 'http://localhost:8000';
 
-export const createCart = createAsyncThunk('cart/createCart', async (data) => {
-  try {
-    const response = await axios.post(`${URL}/carts`, data);
-    return response.data;
-  } catch (error) {
-    console.error(error);
-  }
-});
+type ICart = {
+  id: number;
+  name: string;
+  price: number;
+};
 
-export const getAllCarts = createAsyncThunk('carts/getAllCarts', async () => {
+export const createCart = createAsyncThunk(
+  'cart/createCart',
+  async (event: ICart) => {
+    try {
+      const response = await axios.post(`${URL}/carts`, event);
+      return response.data;
+    } catch (error) {
+      console.error(error);
+    }
+  }
+);
+
+export const getAllCarts = createAsyncThunk('cart/getAllCarts', async () => {
   try {
     const response = await axios.get(`${URL}/carts`);
     return response.data;

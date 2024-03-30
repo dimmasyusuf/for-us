@@ -11,13 +11,15 @@ import {
 import { useEffect } from 'react';
 import { getAllEvents } from '../app/features/eventSlice';
 import { useAppDispatch, useAppSelector } from '../app/hooks';
+import { createCart, getAllCarts } from '../app/features/cartSlice';
 
 type IEvent = {
-  id: string;
+  id: number;
   name: string;
   description: string;
   date: string;
   image: string;
+  price: number;
 };
 
 export default function EventList() {
@@ -28,7 +30,10 @@ export default function EventList() {
     dispatch(getAllEvents());
   }, [dispatch]);
 
-  console.log('events:', events);
+  const handleRegister = (event: IEvent) => {
+    dispatch(createCart(event));
+    dispatch(getAllCarts());
+  };
 
   return (
     <Flex
@@ -70,6 +75,7 @@ export default function EventList() {
               <Button
                 colorScheme="blue"
                 width="full"
+                onClick={() => handleRegister(event)}
               >
                 Register
               </Button>

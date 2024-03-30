@@ -1,7 +1,7 @@
 {
   "events": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Open Days Indonesia - Jakarta",
       "description": "Open Days Indonesia is an exclusive event for Indonesian prospective students.",
       "type": "Paid",
@@ -13,7 +13,7 @@
       "price": 100
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "elytSié Jakarta : meet all the fashion enthusiasts in Jakarta",
       "description": "elytSié is a social club for fashion enthusiast. connect with like-minded people from around the world.",
       "type": "Free",
@@ -25,7 +25,7 @@
       "price": 0
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Open House: Alles Goethe!",
       "description": "Open House Goethe-Institut Jakarta. Acara ini gratis dan terbuka untuk umum.",
       "type": "Free",
@@ -37,7 +37,7 @@
       "price": 0
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Holding Company & Growth Strategy, Executive Workshop",
       "description": "Seeking business expansion? Don't miss our Executive Workshop \"Holding Company & Growth Strategy\", tailored for Top-level Professionals.",
       "type": "Paid",
@@ -49,7 +49,7 @@
       "price": 30
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Open House IFI 2023 - Thamrin",
       "description": "Journée Portes Ouvertes (JPO) 2023 ini merupakan acara Open House yang dilaksanakan oleh IFI.",
       "type": "Free",
@@ -61,7 +61,7 @@
       "price": 0
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "U.S.Graduate Education Fair 2023 (Jakarta)",
       "description": "Bagi kamu yang ingin mencari informasi mengenai studi di Amerika Serikat , jangan lewatkan kesempatan ini! U.S. Graduate Education Fair 2023",
       "type": "Free",
@@ -73,7 +73,7 @@
       "price": 49
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Free Fire Master League Season 8 League Stage",
       "description": "Join group nonton FFML offline untuk ketemu teman-teman baru dan info terupdate!",
       "type": "Free",
@@ -85,7 +85,7 @@
       "price": 0
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "CISO Indonesia",
       "description": "Join us at CISO (Chief Information Security Officer) Indonesia as we explore cybersecurity strategies implemented in different organisations",
       "type": "Paid",
@@ -97,7 +97,7 @@
       "price": 1375
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Indonesia PE-VC Summit 2024",
       "description": "Our Indonesia PE-VC Summit by DealStreetAsia brings together leading names in the PE, VC & Startup worlds focused in SE Asia, India & China.",
       "type": "Paid",
@@ -109,7 +109,7 @@
       "price": 299
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Begin Edu Fair Jakarta (Indonesia)",
       "description": "Taking part in our edu fairs is the best way to start recruitment of students in a rapidly growing market of international education",
       "type": "Free",
@@ -121,7 +121,7 @@
       "price": 0
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Mindfulness Meditation: Wednesday Pause - Indonesia",
       "description": "“The quieter you become, the more you are able to hear.” Rumi, Persian poet",
       "type": "Free",
@@ -133,7 +133,7 @@
       "price": 0
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "BUSINESS MODELING & SIMULATOR : a 2 day course in Jakarta, Indonesia",
       "description": "Get ready to learn how to apply Excel to create realistic business models at our in-person event \"BUSINESS SIMULATOR\" on June 26th, 2023! By Banqat Sdn Bhd - a team of management",
       "type": "Paid",
@@ -145,7 +145,7 @@
       "price": 5000
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "China-Indonesia Execetive Tech Summit",
       "description": "To learn more visit: https://www.yfchuhai.com/gicc2023/",
       "type": "Free",
@@ -157,7 +157,7 @@
       "price": 0
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Indonesia Product Conference 2023",
       "description": "Learn how to build and grow your products from 30 Industry Leaders and connect with 1000+ Professionals only at Indonesia Product Conference",
       "type": "Paid",
@@ -169,7 +169,7 @@
       "price": 33.85
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "19th CS Connect Jakarta, Indonesia",
       "description": "CS Connect brings like-minded people together to discuss the cryptocurrency market with sharing their thoughts and insights.",
       "type": "Free",
@@ -181,7 +181,7 @@
       "price": 0
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Asia Cardiac CT Level 1/2 Course (Indonesia)",
       "description": "Join our Level 1 and 2 Cardiac CT course leading to BSCI accreditation (Towards SCCT), in Jakarta",
       "type": "Free",
@@ -193,7 +193,7 @@
       "price": 0
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "KERAMIKA Indonesia (KMI)",
       "description": "KERAMIKA INDONESIA is THE LARGEST CONSUMERS of CERAMIC TILES & SANITARY WARES in SOUTHEAST ASIA, INDONESIA",
       "type": "Free",
@@ -205,7 +205,7 @@
       "price": 0
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "California Law LL.M. Consortium is Coming to Jakarta, Indonesia!",
       "description": "Gain insights into US legal education and earning your LL.M. degree in the Golden State!",
       "type": "Free",
@@ -217,7 +217,7 @@
       "price": 0
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "Digital Discourses: Humanity in the Age of AI",
       "description": "Conference on Ethical AI featuring speakers from Europe and Southeast Asia.",
       "type": "Free",
@@ -229,7 +229,7 @@
       "price": 0
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "HALAL EXPO INDONESIA (HEI)",
       "description": "Halal Expo Indonesia 2023 is The Largest Busines to Business (B2B) Halal Trade Expo & International Conference in Indonesia",
       "type": "Free",
